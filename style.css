@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: bisque;
+  }
+
+  h1,h2,h3{
+    padding: 8px;
+    margin: 25px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    /* padding: 16px; */
+    text-align: center;
+    
+  }
+  .card{
+    margin: 10%;
+    margin-top: 30px;
+  }
+  
+ footer{
+    background-color: #141519;
+    color: white;
+ } 
